@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity(), Logger {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val message = findViewById<EditText>(R.id.message)
+        /*val message = findViewById<EditText>(R.id.message)
         val button = findViewById<Button>(R.id.button)
 
         button.setOnClickListener {
             toast("${message.text}")
-        }
+        }*/
     }
 
     private fun toast(text: String) {
